@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+.my-table{
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color:var(--black);
+}
+.chart-wrapper{
+    /* width: 93%; */
+    height: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    justify-content: space-between;
+    margin: 1rem 1rem 1rem 2rem;
+    margin-bottom: 3rem !important;
+}
+.chart-container{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    /* width:500px; */
+}
+.line-graph{
+    width:60vw;
+}
+.pie-graph{
+    width:23vw;
+}
+.pie-graph-msg{
+    width:25vw;
+    font-size: 0.8rem;
+}
+
+.line-graph-msg{
+    margin-top: 10px;
+}
